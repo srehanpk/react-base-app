@@ -1,25 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World 
+    <h1 className="h1">Hello World !</h1>
+    <img className="img" src="Rayhan.jpeg" alt="" title="Syed Rayhan Ahmed" ></img>   
+
+      <p>My name is 
+      <br></br>
+       <strong className="name" > Syed Rayhan Ahmed </strong> 
+       <br></br>
+      and i am learning Cloud Native Computing from
+       <br></br>
+      <abbr title="Presidential Initiative
+for Artificial Intelligence & Computing" className="piaic" >PIAIC</abbr> </p>
+
           
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
     </div>
   );
 }
