@@ -45,6 +45,7 @@ body {
  margin-right: auto;
  background-color: darkslategrey;
  border-width: 5px;
+ border-radius: 10px;
 
 
  
@@ -65,6 +66,7 @@ body {
   border: solid;
   border-color: teal;
   border-width: 5px;
+  border-radius: 10px;
   background-color: darkslategrey;
   width: 400px;
   margin-left: auto;
