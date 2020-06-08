@@ -3,24 +3,37 @@ import React from 'react';
 
 
 const List = () => {
+
+
+            
+                var q = (28*100)/30;
+
+                var q1 = Math.round(q);
+
+                var q2 = (27*100)/30;
+                
+
+            
   return (
+
+
     <div className="list">
 
 
 
-    <h6 className="h6">Skills i learned till now :</h6>
+    <h6 className="h6">Skills i learned till now : </h6>
     <hr></hr>
 
     
         <ol className="li">
-            <li className="q">Quater.1  Percentile = {(28*100)/30}%  </li><br></br>
+            <li className="q">Quater.1  Percentile = {q1}%  </li><br></br>
                 <ul>
                     <li>Linux</li>
                     <li>Docker</li>
                     <li>Kubernetes</li>
                 </ul><br></br><hr></hr>
 
-            <li className="q">Quater.2   Percentile = {(27*100)/30}%   </li><br></br>
+            <li className="q">Quater.2   Percentile = {q2}%   </li><br></br>
                 <ul>
                     <li>Git</li>
                     <li>JavaScript</li>
