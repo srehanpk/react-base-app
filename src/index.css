@@ -1,6 +1,12 @@
 body {
   background-color: rgb(160, 160, 160);
-  color: floralwhite;
+  color: floralwhite; 
+}
+
+
+.main {
+
+  
 }
 
 .App {
@@ -9,6 +15,7 @@ body {
   font-size: 30px;
   margin-left: auto;
   margin-right: auto;
+ 
 }
 
 .name {
@@ -27,6 +34,7 @@ body {
   border: none;
   border-radius: 80px;
   
+  
 }
 
 .list {
@@ -37,6 +45,8 @@ body {
  margin-right: auto;
  background-color: darkslategrey;
  border-width: 5px;
+
+
  
 }
 
@@ -51,6 +61,7 @@ body {
 }
 
 .h1 {
+  text-align: center;
   border: solid;
   border-color: teal;
   border-width: 5px;
