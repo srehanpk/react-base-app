@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-function App(props) {
+function App({name}) {
   return (
     <div className="App">
     <h1 className="h1">Hello World !</h1>
@@ -10,7 +10,7 @@ function App(props) {
 
       <p>My name is 
       <br></br>
-       <strong className="name" > {props.name} </strong> 
+       <strong className="name" > {name} </strong> 
        <br></br>
       and i am learning Cloud Native Computing from
        <br></br>

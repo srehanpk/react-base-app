@@ -2,7 +2,7 @@
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import List from './List.js'
+import List from './List.js';
 
 ReactDOM.render(
   <>
@@ -12,4 +12,5 @@ ReactDOM.render(
   ,
   document.getElementById('root')
 );
+
 
