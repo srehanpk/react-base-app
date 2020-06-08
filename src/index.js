@@ -6,7 +6,7 @@ import List from './List.js'
 
 ReactDOM.render(
   <>
-    <App name = "Syed Rayhan Ahmed"/>
+    <App name = "Rayhan Ahmed"/>
     <List />
 </>
   ,
