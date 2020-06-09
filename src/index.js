@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import List from './List.js';
+import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <div className="main">
@@ -14,3 +15,4 @@ ReactDOM.render(
 );
 
 
+serviceWorker.unregister();
